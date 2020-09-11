@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    background: chocolate;
+    margin: 0px;
+    padding: 0px; 
+}
+
+header {
+    justify-content: space-between;
+width: 100vw;
+height: 60px;
+background: grey;
+margin: 0px;
+padding: 0px;
+display: flex
+
+}
+
+
+.menu {
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.links {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    padding: 5px;
+    color: white;
+    
+}
+
+.name {
+    
+    padding: 5px;
+    color: white;
+}
+
+.title-bar {
+    width: 100vw;
+    height: 250px;
+    background: black;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.titleText{
+    font-size: 450%;
+    color: goldenrod;
+    
+}
+
+.bar1 {
+    background: yellow;
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.box1 {
+    height: 180px;
+    width: 180px;
+    border-radius: 5%;
+    background: lightgreen;
+    padding: 100px;
+    
+}
+.box2 {
+    height: 180px;
+    width: 180px;
+    border-radius: 5%;
+    background: lightgreen;
+    padding: 100px;
+}
+.box3 {
+    height: 180px;
+    width: 180px;
+    border-radius: 5%;
+    background: lightgreen;
+    padding: 100px;
+}
+
+
+.boxdiv {
+    background: cyan;
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rect1 {
+    justify-content: space-evenly;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+    background: coral;
+    margin: 25px;
+}
+
+.boxdiv2 {
+    width: 100vw;
+    height: 250px;
+    background: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.textbox {
+    background: white;
+    height: 200px;
+    width: 450px;
+    margin-right: 350px
+
+}
+.paragraph{
+    word-wrap: normal;
+}
+.img {
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+    }
+
